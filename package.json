@@ -1,6 +1,6 @@
 {
   "name": "@vitriollabs/immutable-deployment-factory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deterministic omni-chain smart contract deployments",
   "scripts": {
     "slither": "slither . --filter-paths \"Contracts/\" --exclude assembly,unused-return,solc-version,low-level-calls,divide-before-multiply",
@@ -19,6 +19,9 @@
     "url": "https://ca.meron.dev/"
   },
   "license": "MIT",
+  "dependencies": {
+    "solady": "^0.0.161"
+  },
   "devDependencies": {
     "@ethersproject/address": "^5.7.0",
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
@@ -37,7 +40,6 @@
     "hardhat-contract-sizer": "^2.10.0",
     "prettier": "^3.1.1",
     "prettier-plugin-solidity": "^1.3.1",
-    "solady": "^0.0.161",
     "solidity-coverage": "^0.8.0",
     "ts-node": "^10.9.2",
     "typechain": "^8.3.0",

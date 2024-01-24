@@ -51,7 +51,7 @@ The `ImmutableDeploymentFactory` was initially deployed using [Nick's method](ht
 
 You can deploy a copy of the factory to any EVM compatible chain by:
 1. Funding the deployment address `0x0D6470aED3287d05dF6cE19Ba4fab50852a49b5e` with `0.07` chain-currency (possibly with additional chain fees ex: L1 fees on Optimism)
-2. Broadcast `signedTx` from [keylessDeployment.json](https://github.com/VitriolLabs/ImmutableDeploymentFactory/blob/main/deployment/keylessDeployment.json) when gas is less than 100 gwei. You **MUST** fund the account prior to broadcasting the transaction.
+2. Broadcast `signedTx` from [keylessDeployment.json](https://github.com/VitriolLabs/immutable-deployment-factory/blob/main/deployment/keylessDeployment.json) when gas is less than 100 gwei. You **MUST** fund the account prior to broadcasting the transaction.
 
 Some web3 providers filter out Type-0 transactions (Ethereum legacy transactions), which are used here for omni-chain deployment. We had success using the [Alchemy Sandbox](https://dashboard.alchemy.com/sandbox) to broadcast the deployment transactions.
 
@@ -63,15 +63,15 @@ This repo was created by [Cameron White (Slvrfn)](https://ca.meron.dev) of [Vitr
 
 ## Contributing
 
-Contributions are welcome, please review [CONTRIBUTIONS](https://github.com/VitriolLabs/ImmutableDeploymentFactory/blob/main/CONTRIBUTING.md) for more details.
+Contributions are welcome, please review [CONTRIBUTIONS](https://github.com/VitriolLabs/immutable-deployment-factory/blob/main/CONTRIBUTING.md) for more details.
 
 ## License
 
-The files contained therein are licensed under The MIT License (MIT). See the [LICENSE](https://github.com/VitriolLabs/ImmutableDeploymentFactory/blob/main/LICENSE.md) file for more details.
+The files contained therein are licensed under The MIT License (MIT). See the [LICENSE](https://github.com/VitriolLabs/immutable-deployment-factory/blob/main/LICENSE.md) file for more details.
 
 ## Disclaimer
 
-Please review the [DISCLAIMER](https://github.com/VitriolLabs/ImmutableDeploymentFactory/blob/main/DISCLAIMER.md) for more details.
+Please review the [DISCLAIMER](https://github.com/VitriolLabs/immutable-deployment-factory/blob/main/DISCLAIMER.md) for more details.
 
 ***
 

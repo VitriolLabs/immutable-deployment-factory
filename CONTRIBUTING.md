@@ -4,10 +4,10 @@
 
 ### Setting up you local machine:
 
-- [Fork](https://github.com/VitriolLabs/ImmutableDeploymentFactory) (this project) and clone the fork on your local machine:
+- [Fork](https://github.com/VitriolLabs/immutable-deployment-factory) (this project) and clone the fork on your local machine:
 
 ```sh
-git clone https://github.com/VitriolLabs/ImmutableDeploymentFactory.git
+git clone https://github.com/VitriolLabs/immutable-deployment-factory.git
 cd ImmutableDeploymentFactory # go into the clone directory
 npm install # install all the node dependencies
 ```
@@ -23,7 +23,7 @@ We use GitHub issues to track public bugs. We will keep a close eye on this and 
 
 ### Coding Style
 
-Please follow the [Coding Style](https://github.com/VitriolLabs/ImmutableDeploymentFactory/blob/main/CODING_STYLE.md).
+Please follow the [Coding Style](https://github.com/VitriolLabs/immutable-deployment-factory/blob/main/CODING_STYLE.md).
 
 ## License
 

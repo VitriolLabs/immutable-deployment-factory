@@ -35,6 +35,10 @@ function findCreate3Address(bytes32 salt) returns (address deploymentAddress);
 
 > Note: <code>create2</code> deployment addresses are influenced by the deploying contract's bytecode 
 
+<br>
+When providing a salt during the deployment process, you have the **option** to prevent front-running of your deployment. This is accomplished by including the caller's address in the first 20 bytes of the salt. If you do not care to prevent front-running, the first 20 bytes of the salt must all be zeros.
+
+
 ## Deployment:
 
 The `ImmutableDeploymentFactory` has been deployed to `0x0000086e1910D5977302116fC27934DC0254266C` on the following networks:

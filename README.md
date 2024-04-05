@@ -17,6 +17,8 @@
 
 ***
 
+A blog post has been created reviewing this repo at: [Deterministic EVM Deployments and the Immutable Deployment Factory](https://blog.vitriol.sh/posts/immutable-contract-factory/)
+
 ## Usage:
 
 The following functions are available to based on hash and deployment method (create2/3)
